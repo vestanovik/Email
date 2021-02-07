@@ -1,0 +1,364 @@
+[1612120693.175][INFO]: Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 40899
+[1612120693.175][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1612120693.784][INFO]: [e512af94184b7a4a3cd60c866033580e] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\AutoTraining\\Web\\build\\downloads\\1612120692235_17804_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\AutoTraining\\Web\\build\\downloads\\1612120692235_17804_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1612120693.789][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\AutoTraining\\Web\\build\\downloads\\1612120692235_17804_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1612120693.790][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1612120693.791][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\VESTAN~1\AppData\Local\Temp\scoped_dir20876_136405266" data:,
+[1612120694.364][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1612120694.376][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1612120694.400][INFO]: [e512af94184b7a4a3cd60c866033580e] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "88.0.4324.104",
+      "chrome": {
+         "chromedriverVersion": "88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784})",
+         "userDataDir": "C:\\Users\\VESTAN~1\\AppData\\Local\\Temp\\scoped_dir20876_136405266"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:60724"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "e512af94184b7a4a3cd60c866033580e"
+}
+[1612120694.448][INFO]: [e512af94184b7a4a3cd60c866033580e] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1612120694.448][INFO]: Waiting for pending navigations...
+[1612120694.451][INFO]: Done waiting for pending navigations. Status: ok
+[1612120694.571][INFO]: Waiting for pending navigations...
+[1612120694.573][INFO]: Done waiting for pending navigations. Status: ok
+[1612120694.573][INFO]: [e512af94184b7a4a3cd60c866033580e] RESPONSE SetWindowRect {
+   "height": 770,
+   "width": 1368,
+   "x": 8,
+   "y": 8
+}
+[1612120694.587][INFO]: [e512af94184b7a4a3cd60c866033580e] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1612120694.588][INFO]: [e512af94184b7a4a3cd60c866033580e] RESPONSE SetTimeouts
+[1612120694.603][INFO]: [e512af94184b7a4a3cd60c866033580e] COMMAND Navigate {
+   "url": "https://mail.rambler.ru/?utm_source=head&utm_campaign=self_promo&utm_medium=header&utm_content=mail"
+}
+[1612120694.603][INFO]: Waiting for pending navigations...
+[1612120694.605][INFO]: Done waiting for pending navigations. Status: ok
+[1612120695.584][INFO]: Waiting for pending navigations...
+[1612120704.965][INFO]: Done waiting for pending navigations. Status: ok
+[1612120704.965][INFO]: [e512af94184b7a4a3cd60c866033580e] RESPONSE Navigate
+[1612120705.007][INFO]: [e512af94184b7a4a3cd60c866033580e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"login\"]"
+}
+[1612120705.007][INFO]: Waiting for pending navigations...
+[1612120705.008][INFO]: Done waiting for pending navigations. Status: ok
+[1612120705.018][INFO]: Waiting for pending navigations...
+[1612120705.019][INFO]: Done waiting for pending navigations. Status: ok
+[1612120705.019][INFO]: [e512af94184b7a4a3cd60c866033580e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="login"]"}
+  (Session info: chrome=88.0.4324.104)
+[1612120705.259][INFO]: [e512af94184b7a4a3cd60c866033580e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"login\"]"
+}
+[1612120705.259][INFO]: Waiting for pending navigations...
+[1612120705.261][INFO]: Done waiting for pending navigations. Status: ok
+[1612120705.278][INFO]: Waiting for pending navigations...
+[1612120705.279][INFO]: Done waiting for pending navigations. Status: ok
+[1612120705.279][INFO]: [e512af94184b7a4a3cd60c866033580e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="login"]"}
+  (Session info: chrome=88.0.4324.104)
+[1612120705.511][INFO]: [e512af94184b7a4a3cd60c866033580e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"login\"]"
+}
+[1612120705.512][INFO]: Waiting for pending navigations...
+[1612120705.515][INFO]: Done waiting for pending navigations. Status: ok
+[1612120705.535][INFO]: Waiting for pending navigations...
+[1612120705.537][INFO]: Done waiting for pending navigations. Status: ok
+[1612120705.537][INFO]: [e512af94184b7a4a3cd60c866033580e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="login"]"}
+  (Session info: chrome=88.0.4324.104)
+[1612120705.760][INFO]: [e512af94184b7a4a3cd60c866033580e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"login\"]"
+}
+[1612120705.760][INFO]: Waiting for pending navigations...
+[1612120705.761][INFO]: Done waiting for pending navigations. Status: ok
+[1612120705.771][INFO]: Waiting for pending navigations...
+[1612120705.773][INFO]: Done waiting for pending navigations. Status: ok
+[1612120705.773][INFO]: [e512af94184b7a4a3cd60c866033580e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="login"]"}
+  (Session info: chrome=88.0.4324.104)
+[1612120705.996][INFO]: [e512af94184b7a4a3cd60c866033580e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"login\"]"
+}
+[1612120705.997][INFO]: Waiting for pending navigations...
+[1612120705.999][INFO]: Done waiting for pending navigations. Status: ok
+[1612120706.007][INFO]: Waiting for pending navigations...
+[1612120706.008][INFO]: Done waiting for pending navigations. Status: ok
+[1612120706.008][INFO]: [e512af94184b7a4a3cd60c866033580e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="login"]"}
+  (Session info: chrome=88.0.4324.104)
+[1612120706.230][INFO]: [e512af94184b7a4a3cd60c866033580e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"login\"]"
+}
+[1612120706.230][INFO]: Waiting for pending navigations...
+[1612120706.234][INFO]: Done waiting for pending navigations. Status: ok
+[1612120706.250][INFO]: Waiting for pending navigations...
+[1612120706.252][INFO]: Done waiting for pending navigations. Status: ok
+[1612120706.252][INFO]: [e512af94184b7a4a3cd60c866033580e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="login"]"}
+  (Session info: chrome=88.0.4324.104)
+[1612120706.480][INFO]: [e512af94184b7a4a3cd60c866033580e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"login\"]"
+}
+[1612120706.480][INFO]: Waiting for pending navigations...
+[1612120706.482][INFO]: Done waiting for pending navigations. Status: ok
+[1612120706.493][INFO]: Waiting for pending navigations...
+[1612120706.494][INFO]: Done waiting for pending navigations. Status: ok
+[1612120706.494][INFO]: [e512af94184b7a4a3cd60c866033580e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="login"]"}
+  (Session info: chrome=88.0.4324.104)
+[1612120706.728][INFO]: [e512af94184b7a4a3cd60c866033580e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"login\"]"
+}
+[1612120706.728][INFO]: Waiting for pending navigations...
+[1612120706.731][INFO]: Done waiting for pending navigations. Status: ok
+[1612120706.740][INFO]: Waiting for pending navigations...
+[1612120706.741][INFO]: Done waiting for pending navigations. Status: ok
+[1612120706.741][INFO]: [e512af94184b7a4a3cd60c866033580e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="login"]"}
+  (Session info: chrome=88.0.4324.104)
+[1612120706.962][INFO]: [e512af94184b7a4a3cd60c866033580e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"login\"]"
+}
+[1612120706.962][INFO]: Waiting for pending navigations...
+[1612120706.965][INFO]: Done waiting for pending navigations. Status: ok
+[1612120706.979][INFO]: Waiting for pending navigations...
+[1612120706.980][INFO]: Done waiting for pending navigations. Status: ok
+[1612120706.980][INFO]: [e512af94184b7a4a3cd60c866033580e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="login"]"}
+  (Session info: chrome=88.0.4324.104)
+[1612120707.211][INFO]: [e512af94184b7a4a3cd60c866033580e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"login\"]"
+}
+[1612120707.211][INFO]: Waiting for pending navigations...
+[1612120707.212][INFO]: Done waiting for pending navigations. Status: ok
+[1612120707.222][INFO]: Waiting for pending navigations...
+[1612120707.226][INFO]: Done waiting for pending navigations. Status: ok
+[1612120707.227][INFO]: [e512af94184b7a4a3cd60c866033580e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="login"]"}
+  (Session info: chrome=88.0.4324.104)
+[1612120707.446][INFO]: [e512af94184b7a4a3cd60c866033580e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"login\"]"
+}
+[1612120707.446][INFO]: Waiting for pending navigations...
+[1612120707.448][INFO]: Done waiting for pending navigations. Status: ok
+[1612120707.455][INFO]: Waiting for pending navigations...
+[1612120707.456][INFO]: Done waiting for pending navigations. Status: ok
+[1612120707.456][INFO]: [e512af94184b7a4a3cd60c866033580e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="login"]"}
+  (Session info: chrome=88.0.4324.104)
+[1612120707.678][INFO]: [e512af94184b7a4a3cd60c866033580e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"login\"]"
+}
+[1612120707.678][INFO]: Waiting for pending navigations...
+[1612120707.679][INFO]: Done waiting for pending navigations. Status: ok
+[1612120707.683][INFO]: Waiting for pending navigations...
+[1612120707.684][INFO]: Done waiting for pending navigations. Status: ok
+[1612120707.684][INFO]: [e512af94184b7a4a3cd60c866033580e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="login"]"}
+  (Session info: chrome=88.0.4324.104)
+[1612120707.913][INFO]: [e512af94184b7a4a3cd60c866033580e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"login\"]"
+}
+[1612120707.913][INFO]: Waiting for pending navigations...
+[1612120707.915][INFO]: Done waiting for pending navigations. Status: ok
+[1612120707.928][INFO]: Waiting for pending navigations...
+[1612120707.930][INFO]: Done waiting for pending navigations. Status: ok
+[1612120707.930][INFO]: [e512af94184b7a4a3cd60c866033580e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="login"]"}
+  (Session info: chrome=88.0.4324.104)
+[1612120708.163][INFO]: [e512af94184b7a4a3cd60c866033580e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"login\"]"
+}
+[1612120708.163][INFO]: Waiting for pending navigations...
+[1612120708.166][INFO]: Done waiting for pending navigations. Status: ok
+[1612120708.174][INFO]: Waiting for pending navigations...
+[1612120708.174][INFO]: Done waiting for pending navigations. Status: ok
+[1612120708.174][INFO]: [e512af94184b7a4a3cd60c866033580e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="login"]"}
+  (Session info: chrome=88.0.4324.104)
+[1612120708.401][INFO]: [e512af94184b7a4a3cd60c866033580e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"login\"]"
+}
+[1612120708.401][INFO]: Waiting for pending navigations...
+[1612120708.404][INFO]: Done waiting for pending navigations. Status: ok
+[1612120708.417][INFO]: Waiting for pending navigations...
+[1612120708.419][INFO]: Done waiting for pending navigations. Status: ok
+[1612120708.419][INFO]: [e512af94184b7a4a3cd60c866033580e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="login"]"}
+  (Session info: chrome=88.0.4324.104)
+[1612120708.649][INFO]: [e512af94184b7a4a3cd60c866033580e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"login\"]"
+}
+[1612120708.649][INFO]: Waiting for pending navigations...
+[1612120708.650][INFO]: Done waiting for pending navigations. Status: ok
+[1612120708.654][INFO]: Waiting for pending navigations...
+[1612120708.655][INFO]: Done waiting for pending navigations. Status: ok
+[1612120708.655][INFO]: [e512af94184b7a4a3cd60c866033580e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="login"]"}
+  (Session info: chrome=88.0.4324.104)
+[1612120708.885][INFO]: [e512af94184b7a4a3cd60c866033580e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"login\"]"
+}
+[1612120708.885][INFO]: Waiting for pending navigations...
+[1612120708.886][INFO]: Done waiting for pending navigations. Status: ok
+[1612120708.891][INFO]: Waiting for pending navigations...
+[1612120708.892][INFO]: Done waiting for pending navigations. Status: ok
+[1612120708.892][INFO]: [e512af94184b7a4a3cd60c866033580e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="login"]"}
+  (Session info: chrome=88.0.4324.104)
+[1612120709.121][INFO]: [e512af94184b7a4a3cd60c866033580e] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1612120709.121][INFO]: Waiting for pending navigations...
+[1612120709.122][INFO]: Done waiting for pending navigations. Status: ok
+[1612120709.131][INFO]: Waiting for pending navigations...
+[1612120709.132][INFO]: Done waiting for pending navigations. Status: ok
+[1612120709.133][INFO]: [e512af94184b7a4a3cd60c866033580e] RESPONSE ExecuteScript "\u003Chtml prefix=\"og: http://ogp.me/ns#\" lang=\"ru\">\u003Chead>\n        \n  \u003Cmeta charset=\"utf-8\">\n  \u003Cmeta name=\"description\" content=\"Создайте электронную почту с надежной з..."
+[1612120709.155][INFO]: [e512af94184b7a4a3cd60c866033580e] COMMAND Screenshot {
+
+}
+[1612120709.155][INFO]: Waiting for pending navigations...
+[1612120709.156][INFO]: Done waiting for pending navigations. Status: ok
+[1612120709.621][INFO]: Waiting for pending navigations...
+[1612120709.622][INFO]: Done waiting for pending navigations. Status: ok
+[1612120709.622][INFO]: [e512af94184b7a4a3cd60c866033580e] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABpoAAANVCAYAAABoHC2oAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvX98FdWd//+agAkEEgNBFiRCJa3RlFXij20UayxWFmlRWfJpKVkXjYgfqm5ZSct+imWpFbus6OKqy4oYpX5D/fQRihqtNq1orGj8IAZdNph2gwWjZDGQkEjgR..."
+[1612120709.696][INFO]: [e512af94184b7a4a3cd60c866033580e] COMMAND Quit {
+
+}
+[1612120709.746][INFO]: [e512af94184b7a4a3cd60c866033580e] RESPONSE Quit
