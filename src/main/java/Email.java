@@ -18,10 +18,8 @@ public class Email {
         $(By.xpath("//div[contains(@class,'Footer')]//a[contains(@href,'auth?')]")).click();
         $(By.xpath("//input[@id='passp-field-login']")).setValue("novik.vesta").pressEnter();
         $(By.xpath("//input[@id='passp-field-passwd']")).setValue("BrestMinsk").pressEnter();
-
-        sleep(1000);
+        sleep(500);
         $(By.xpath("//a[contains(@class,'mail-ComposeButton')]")).click();
-        sleep(1000);
         $(By.xpath("//div[@class='composeYabbles']")).setValue("novik.vesta@yandex.by").pressEnter();
         $(By.xpath("//input[@name='subject']")).setValue("AutoTest1234");
         $(By.xpath("//div[contains(@class,'ComposeSendButton')]/button")).click();
